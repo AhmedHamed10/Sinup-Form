@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: #d1cdcd;
+}
+.logo-design{
+    display: flex;
+    align-items: center;
+    margin: 25px 60px;
+}
+.logo-design .logo-text{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 0 20px 20px 0;
+}
+a .logo{
+    width: 53px;
+    margin-top: 5px;
+    border-radius: 20px 0 0 20px;
+}
+.container{
+    background-color: #d1cdcd;
+    width: 100%;
+    min-height: 100vh;
+}
+.card{
+    background: #002280;
+    width: 40%;
+    height: 75vh;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card h2{
+    text-align: center;
+    margin: 20px;
+    color: #F0f0f0;
+    cursor: pointer;
+}
+.card form input{
+    margin: 10px 45px;
+    width: 80%;
+    padding-left: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    outline: none;
+}  
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #002280;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    padding: 8px 53px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    margin: 47px;
+    margin-right: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px #3a6cf4 solid;
+    color: #f0f0f0;
+}     
+.bb{
+    padding: 8px 98px;
+}
+.cc{
+    padding: 8px 37px;
+}
+.forget{
+    color: #f0f0f0;
+    margin-left: 47px;
+}
